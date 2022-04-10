@@ -8,6 +8,7 @@
 
 body{
     font-family: 'Playfair Display', serif;
+    margin: 0px;
 }
 
 hr{
@@ -22,6 +23,11 @@ hr{
 .container-center {
     max-width: 600px;
     margin: auto;
+}
+
+.container-margin {
+    max-width: 800px;
+    margin: 3rem 350px;
 }
 
 .link {
@@ -90,6 +96,7 @@ hr{
 
 .hero .hero-heading {
     color: var(--dark-gray);
+    text-align: center;
 }
 
 .hero .hero-heading .heading-inverted {
@@ -116,6 +123,11 @@ hr{
     text-align: center;
     color: white;
     border-top-right-radius: 0.5rem;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
 }
 
 .footer .link {

@@ -1,75 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME | SHREYAS KANTIKAR</title>
     <link rel="stylesheet" href="style.css">
-    <title>Shreyas Kantikar</title>
 </head>
-
 <body>
-    <h1>Shreyas's component library</h1>
-
-    <p>I am attending neog.camp and I want to make a library which would make all my projects look good and consistent
-    </p>
-
-    <hr>
-
-    <h2>@typography</h2>
-
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest heading</h2>
-    <p>This is normqal text and willwrap up like a fluid text ina paragraph</p>
-    <small>This is relatively smaller text</small>
-
-    <hr>
-
-    <h2>@container</h2>
-
-    <h3>Fluid container</h3>
-    <div class="container">This is a fluid contaier and it will go till the end of the page</div>
-
-    <h3>center container</h3>
-    <div class="container container-center">this is a centered container and it will go till specified width</div>
-
-    <hr>
-
-    <h2>@links</h2>
-
-    <a class="link link-primary" href="/">Primary Link</a>
-    <a class="link link-secondary" href="/">Secondary Link</a>
-
-    <hr>
-
-    <h2>@lists</h2>
-    <h3>unordered list</h3>
-
-    <ul class="list-non-bullet">
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
-    </ul>
-
-    <h3>ordered list</h3>
-
-    <ol>
-        <li class="list-item-inline">Inline Item One</li>
-        <li class="list-item-inline">Inline Item Two</li>
-        <li class="list-item-inline">Inline Item Three</li>
-    </ol>
-
-    <h3>Reverse Ordered list</h3>
-    <ol reversed>
-        <li>Milk</li>
-        <li>Egg</li>
-        <li>Bread</li>
-    </ol>
-
-    <hr>
-
-    <h2>@nav</h2>
+    
     <nav class="navigation continer">
         <div class="nav-brand">iAmShreyas</div>
         <ul class="list-non-bullet nav-pills">
@@ -77,64 +16,53 @@
                 <a class="link link-active" href="/">HOME</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">PORTFOLIO</a>
+                <a class="link" href="/projects.html">PROJECTS</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">ABOUT</a>
+                <a class="link" href="/blogs.html">BLOGS</a>
             </li>
         </ul>
     </nav>
-
-    <hr>
-
-    <h2>@header</h2>
 
     <header class="hero">
         <img class="hero-img" src="images/hero.svg" alt="" />
         <h1 class="hero-heading">Shreyas, the <span class="heading-inverted"> web developer</span></h1>
     </header>
 
-    <hr>
-
-    <h2>@section</h2>
-
     <section class="section">
         <div class="container-center">
-            <h1>white section</h1>
-            <p>The following will render a modeless (non-modal) dialog. The "OK" button allows the dialog to be closed
-                when activated. It is important to provide a mechanism to close a dialog within the dialog element. For
-                instance, the Esc key does not close modeless dialogs by default, nor can one assume that a user will
-                even have access to a physical keyboard (e.g., someone using a touch screen device without access to a
-                keyboard)
+            <h1>Technologies</h1>
+            <p>I am good with HTML, CSS3, JavaScript, NodeJS, ReactJS and Web Hosting
             </p>
         </div>
     </section>
 
     <section class="section ow">
         <div class="container-center">
-            <h1>off white section</h1>
-            <p>The following will render a modeless (non-modal) dialog. The "OK" button allows the dialog to be closed
-                when activated. It is important to provide a mechanism to close a dialog within the dialog element. For
-                instance, the Esc key does not close modeless dialogs by default, nor can one assume that a user will
-                even have access to a physical keyboard (e.g., someone using a touch screen device without access to a
-                keyboard).</p>
+            <h1>Projects</h1>
+            <p>I would like to showcase my work and thus, you can see my hosted projects online</p>
+
+            <a class="link link-primary" href="/">Browse Projects</a>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container-center">
+            <h1>Blogs</h1>
+            <p>I am working on some technical and non-technical blogs. Also, it contains my journey.
+            </p>
+
+            <a class="link link-primary" href="/">Take a look at blogs</a>
         </div>
     </section>
 
-    <hr>
-
-    <h2>@footer</h2>
-
     <footer class="footer">
-        <div class="footer-header">some small heading inside footer</div>
+        <div class="footer-header">Connect with me</div>
         <ul class="social-links list-non-bullet">
-            <li class="list-item-inline"><a class="link" href="/">socialOne</a></li>
-            <li class="list-item-inline"><a class="link" href="/">socialTwo</a></s></li>
-            <li class="list-item-inline"><a class="link" href="/">socialThree</a></li>
+            <li class="list-item-inline"><a class="link" href="/">Instagram</a></li>
+            <li class="list-item-inline"><a class="link" href="https://github.com/Skz10">GitHub</a></li>
+            <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/shreyas-kantikar">LinkedIn</a></li>
         </ul>
     </footer>
 
-
 </body>
-
 </html>
