@@ -28,6 +28,7 @@ hr{
 .container-center {
     max-width: 600px;
     margin: auto;
+    padding-bottom: 3rem;
     
 }
 
@@ -35,6 +36,7 @@ hr{
     padding: 0.5rem 2rem 3rem 2rem;
     max-width: 800px;
     margin: 3rem 350px;
+    background-color: #cccccc;
 }
 
 .link {
@@ -48,18 +50,24 @@ hr{
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color:white;
-    transition: all 0.5s ease-in-out 0s;
+    margin-right: 1rem;
+    transition: all 0.5s ease-out 0s;
 }
 
 .link-primary:hover{
-    box-shadow: 5px 5px 10px var(--dark-green);
-    border-radius: 0.25rem;
+    box-shadow: 5px 5px 8px var(--dark-green);
+    color: var(--dark-green);
 }
 
 .link-secondary{
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
+    transition: all 0.5s ease-out 0s;;
+}
+
+.link-secondary:hover{
+    box-shadow: 5px 5px 8px var(--selected);
 }
 
 .list-non-bullet{
@@ -158,4 +166,9 @@ hr{
 .footer ul {
     padding-inline-start: 0px;
     
+}
+
+.title-project{
+    color: #00cc00;
+    text-shadow: 1px 1px 2px black;
 }
