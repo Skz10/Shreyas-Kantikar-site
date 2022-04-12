@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
 
 :root{
     --primary-color: #333333;
@@ -135,6 +136,12 @@ hr{
     color: var(--primary-color);
 }
 
+.quote {
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+    color: white;
+}
+
 hr {
     position:relative;
     top: 20px;
@@ -142,6 +149,7 @@ hr {
     margin: 0 10% 0 10%;
     background: #cccccc;
     width:80%;
+    box-shadow: 0px 10px 7px black;
 }
 
 .section {
