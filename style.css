@@ -28,7 +28,7 @@ hr{
 }
 
 .container-center {
-    max-width: 600px;
+    max-width: 20rem;
     margin: auto;
     padding-bottom: 3rem;
     
@@ -36,8 +36,8 @@ hr{
 
 .container-margin {
     padding: 0.5rem 2rem 3rem 2rem;
-    max-width: 800px;
-    margin: 3rem 350px;
+    max-width: 38rem;
+    margin: 3rem 25%;
     background-color: #cccccc;
 }
 
