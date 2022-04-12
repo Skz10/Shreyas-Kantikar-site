@@ -121,7 +121,7 @@ hr{
     max-width: 350px;
     margin: auto;
     display: block;
-
+    padding-bottom: 1rem;
 }
 
 .hero .hero-heading {
@@ -133,6 +133,15 @@ hr{
 
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color);
+}
+
+hr {
+    position:relative;
+    top: 20px;
+    height: 0.15rem;
+    margin: 0 10% 0 10%;
+    background: #cccccc;
+    width:80%;
 }
 
 .section {
