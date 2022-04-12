@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 :root{
     --primary-color: #333333;
@@ -126,6 +127,8 @@ hr{
 .hero .hero-heading {
     color: var(--dark-green);
     text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 3.5rem;
 }
 
 .hero .hero-heading .heading-inverted {
