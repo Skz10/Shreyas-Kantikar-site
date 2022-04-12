@@ -34,11 +34,17 @@ hr{
     
 }
 
+.container-margin:hover{
+    padding-left: 3rem;
+    box-shadow: 5px 5px 8px 0 black, 5px 5px 8px black;
+}
+
 .container-margin {
     padding: 0.5rem 2rem 3rem 2rem;
     max-width: 38rem;
     margin: 3rem 25%;
     background-color: #cccccc;
+    transition: all 0.5s ease-out 0s;
 }
 
 .link {
